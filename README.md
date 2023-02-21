@@ -1,2 +1,0 @@
-# SiriusWeb Manuals
-## Noted
