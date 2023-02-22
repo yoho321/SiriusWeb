@@ -36,13 +36,13 @@ In Obeo platform, you are provided with several official project templates, but 
 + Naviagate to the [Home page](https://demo.obeostudio.com/projects).
 + Click on the **'+ Blank project'**.
 
-![ObeoPlatform](/Users/jshe/Documents/Monash/MasterThesis/Image/ObeoPlatform.png)
+<img src="./Image/ObeoPlatform.png" width = "800" height = "500"/> 
 
 + Enter the project name.
 + Choose visualbility of your project.
 + Create your new project.
 
-![CreateNewProject](/Users/jshe/Documents/Monash/MasterThesis/Image/CreateNewProject.png)
+<img src="./Image/CreateNewProject.png" width = "800" height = "500"/> 
 
 You will be redirected to the newly created project. It will be initially empty; see following sections to learn how to use the project editor view to create your own models and representations.
 
@@ -54,15 +54,15 @@ To create your domain:
 
 + In the *Create a new Model* section, choose *Domain* to create a new one.
 
-![ProjectWorkshop](/Users/jshe/Documents/Monash/MasterThesis/Image/ProjectWorkshop.png)
+<img src="./Image/ProjectWorkshop.png" width = "800" height = "500"/>
 
 + In the *Create a new Representation* section, choose *Domain* representation to visualise the Custom Domain.
 
-![NewDomain](/Users/jshe/Documents/Monash/MasterThesis/Image/NewDomain.png)
+<img src="./Image/NewDomain.png" width = "800" height = "500"/>
 
 + In the newly-created representation panel, you are allowed to add new elements for the Domain as you wish.
 
-![NewMetaModel](/Users/jshe/Documents/Monash/MasterThesis/Image/NewMetaModel.png)
+<img src="./Image/NewMetaModel.png" width = "800" height = "500"/>
 
 The Domain is the root element which identifies your domain. Its only attribute is a name, which should be globally unique on a particular Obeo Studio server, and not contain any space or special character (technically, the name should be a valid Java identifier).
 
@@ -77,7 +77,7 @@ To create a new *Entity*:
 + Hang your mouse over the panel, then there will be a tool bar, in which you can choose to add a new *Entity*.
 + In Details box, you can modify the name and other features of the *Entity*.
 
-![NewEntity](/Users/jshe/Documents/Monash/MasterThesis/Image/NewEntity.png)
+<img src="./Image/NewEntity.png" width = "800" height = "500"/>
 
 Inside an *Entity* you can create *Attributes* that describe their characteristics, and *Relations* from that entity to another one (or itself).
 
@@ -89,7 +89,8 @@ To create a new *Attribute/Relation*:
 
 + Click on the Entity, there will be a tool bar, in which you can add a new attribute or relation to this entity.
 
-![SampleMetamodel](/Users/jshe/Documents/Monash/MasterThesis/Image/SampleMetamodel.png)![sampleModel](/Users/jshe/Documents/Monash/MasterThesis/Image/sampleModel.png)
+<img src="./Image/SampleMetamodel.png" width = "800" height = "500"/>
+<img src="./Image/sampleModel.png" width = "800" height = "500"/>
 
 ### 4. Generate Model
 
@@ -108,17 +109,17 @@ To generate a model based on the existing domain:
   + Choose existing *Domain* template
   + Choose root *Object* type
 
-![creaeteRootOb](/Users/jshe/Documents/Monash/MasterThesis/Image/creaeteRootOb.png)
+<img src="./Image/creaeteRootOb.png" width = "800" height = "500"/>
 
 + Create new child *Object*
   + Create a new *Object* under *root Object*
   + Choose Object type
 
-![createOb](/Users/jshe/Documents/Monash/MasterThesis/Image/createOb.png)
+<img src="./Image/createOb.png" width = "800" height = "500"/>
 
 + Edit *Object* details
 
-![editOb](/Users/jshe/Documents/Monash/MasterThesis/Image/editOb.png)
+<img src="./Image/editOb.png" width = "800" height = "500"/>
 
 ### 5. Generate View
 5.1. Go to previsouly-built custom desctiption project
