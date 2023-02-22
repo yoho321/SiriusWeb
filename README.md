@@ -1,5 +1,5 @@
 # SiriusWeb Manuals
-Create your custom domain specific modelling language (DSML) through SiriusWeb.
+Create your custom Domain Specific Modelling Language (DSML) through SiriusWeb.
 # Noted
 This document is made for supporting people who are new to SiriusWeb and DSML. More detailed information and guideline are given in the [Obeo offical documentation](http://docs.obeostudio.com).
 # Getting Started
