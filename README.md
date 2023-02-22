@@ -38,8 +38,6 @@ To create a new domain:
 
 <img src="./Image/NewDomain.png" width = "800" height = "500"/>
 
-<img src="./Image/NewMetaModel.png" width = "800" height = "500"/>
-
 **Domain* is the root element which identifies your domain. Its only attribute is a name, which should be globally unique on a particular Obeo Studio server, and not contain any space or special character.
 
 ## Add New Elements
@@ -48,6 +46,9 @@ An *Entity* has a name, and zero of more super types. Besides, an *Entity* can b
 To create a new *Entity*:
 
 + Hang your mouse over the panel to activate the tool bar, in which you can add a new *Entity*.
+
+<img src="./Image/NewMetaModel.png" width = "800" height = "500"/>
+
 + In right content box, you can modify the *Entity*.
 
 <img src="./Image/NewEntity.png" width = "800" height = "500"/>
