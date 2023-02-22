@@ -34,55 +34,66 @@ To create a new domain:
 
 <img src="./Image/ProjectWorkshop.png" width = "800" height = "500"/>
 
-+ Underneath *Create a new Representation*, choose *Domain* representation to visualise the Custom Domain.
++ Underneath *Create a new Representation*, choose *Domain* to visualise new domain.
 
 <img src="./Image/NewDomain.png" width = "800" height = "500"/>
 
-+ In the newly-created representation panel, you are allowed to add new elements for the Domain as you wish.
-
 <img src="./Image/NewMetaModel.png" width = "800" height = "500"/>
 
-The Domain is the root element which identifies your domain. Its only attribute is a name, which should be globally unique on a particular Obeo Studio server, and not contain any space or special character (technically, the name should be a valid Java identifier).
-## Add new Elements
-Inside a domain you can create *Entities* which represent the concepts in your domain and are similar to classes in Java, UML or Ecore. 
-An *Entity* has a name, which should be unique inside a given domain, and follow that same rules as for domains, and zero of more super types, which can be used to inherit the attributes and relations from other entities. Besides, an entity can be abstract, meaning no concrete instances can be created from it. Such entities are only useful to be shared as super types for other (concrete) entities.
+**Domain* is the root element which identifies your domain. Its only attribute is a name, which should be globally unique on a particular Obeo Studio server, and not contain any space or special character.
+
+## Add New Elements
+Inside a domain you can create *Entities* which represent the concepts in your domain. 
+An *Entity* has a name, and zero of more super types. Besides, an *Entity* can be abstract, meaning no concrete instances can be created from it.
 To create a new *Entity*:
-+ Hang your mouse over the panel, then there will be a tool bar, in which you can choose to add a new *Entity*.
-+ In Details box, you can modify the name and other features of the *Entity*.
+
++ Hang your mouse over the panel to activate the tool bar, in which you can add a new *Entity*.
++ In right content box, you can modify the *Entity*.
 
 <img src="./Image/NewEntity.png" width = "800" height = "500"/>
 
-Inside an *Entity* you can create *Attributes* that describe their characteristics, and *Relations* from that entity to another one (or itself).
-An *Attribute* is defined by a name, type and whether it is optional and many-valued. Name should should be unique among all the attributes and relations inside a given entity, including the inherited ones. The current system only support types of: *STRING, BOOLEAN and NUMBER*.
-A *Relation* is defined by unique name and type as well as whether it is a containment relation or not.
+Inside an *Entity* you can create *Attributes* and *Relations*.
+
+```bash
+# Attribute is defined by an unique name, type and whether it is optional and many-valued 
+# Relation is defined by unique name, type and whether it is a containment relation or not
+```
+
+
 To create a new *Attribute/Relation*:
-+ Click on the Entity, there will be a tool bar, in which you can add a new attribute or relation to this entity.
+
++ Click on the *Entity* to activate the tool bar, in which you can add new attributes/relations to the *Entity*.
 
 <img src="./Image/SampleMetamodel.png" width = "800" height = "500"/>
+
+**DSML Sample**
+
 <img src="./Image/sampleModel.png" width = "800" height = "500"/>
 
 ## Apply Custom DSML
-To generate a model based on the existing domain:
-+ Create new description project
-  + On the Home page, create a blank project
-  + Rename the project
+Generate a new model based on the previously defined DSML:
++ Create a new definition project
+  + On the [Home page](https://demo.obeostudio.com/projects), create a blank project
+  + Name the project
   + Choose visualbility
 + Create a new Model
-  + Click on the *Other*
-+ Create a new root *Object*
-  + Create new *Object* under the *Other* model
-  + Choose existing *Domain* template
+  + Underneath *Create a new Model*, click on the *Other*
+  + You can see a new domain named *New* in the left content box
++ Create a new root *Object* for *New*
+  + Create new *Object* under *New*
+  + Choose existing DSML
   + Choose root *Object* type
   
+
 <img src="./Image/creaeteRootOb.png" width = "800" height = "500"/>
+
++ Create new child *Objects*
+  + Create a new *Object* under the *root Object*
+  + Choose *Object* type
+  + Edit *Object* details in right content box
   
-+ Create new child *Object*
-  + Create a new *Object* under *root Object*
-  + Choose Object type
-  
+
 <img src="./Image/createOb.png" width = "800" height = "500"/>
-  
-+ Edit *Object* details
 
 <img src="./Image/editOb.png" width = "800" height = "500"/>
 
