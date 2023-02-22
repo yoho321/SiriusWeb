@@ -13,25 +13,23 @@ This document is made for supporting people who are new to SiriusWeb and DSML. M
 Before generating your own modelling project, you are required to ask for an Obeo account, which is avaliable for every one. To ask for an Obeo account, you should go to the [Signup page](https://demo.obeostudio.com/signup) and fill the form to provide required personal information (e.g, Username, Password...).
 ## 2. Log in
 Head to the [Login page](https://demo.obeostudio.com/login) and log in with your Username and Password.
-## 3. Create New Custom Metamodel
-This section is going to introduce how to create the metamodel for the whole project.
-Metamodel is the model of a series models. A model is an abstraction of a domain in the real world; a metamodel is yet another abstraction, highlighting properties of the model itself, and is widely used to represent the collection of concepts within a certain domain.
-Therefore, designing and realising the metamodel are prior for the entire project.
+## 3. Create New Custom DSML
+This section is going to introduce how to generate a new DSML with SiriusWeb.
 ### 3.1. Create New Project
-To start your project, you should first create a new studio definition projec.
-In Obeo platform, you are provided with several official project templates, but in this manual, we are going to introduce how to create your own modeling project. So, we recommend you to create a new blank project with no initial content:
+To start your project, you should first create a new studio definition project.
+
 + Naviagate to the [Home page](https://demo.obeostudio.com/projects).
-+ Click on the **'+ Blank project'**.
-<img src="./Image/ObeoPlatform.png" width = "800" height = "500"/> 
++ Click on the *'+ Blank project'*.
+<img src="./Image/ObeoPlatform.png" width = "800" height = "450"/> 
 + Enter the project name.
 + Choose visualbility of your project.
-+ Create your new project.
-<img src="./Image/CreateNewProject.png" width = "800" height = "500"/> 
-You will be redirected to the newly created project. It will be initially empty; see following sections to learn how to use the project editor view to create your own models and representations.
-### 3.2. Create Your Custom Domain 
-To create your domain:
++ Click on *Create*.
+<img src="./Image/CreateNewProject.png" width = "800" height = "450"/> 
+Then you will be redirected to the newly created project. It will be initially empty; see following sections to learn how to use the project editor view to create your own models and representations.
+### 3.2. Create New Domain 
+To create a new domain:
 + Open your studio definition project.
-+ In the *Create a new Model* section, choose *Domain* to create a new one.
++ Underneath *Create a new Model* , choose *Domain* to create a new one.
 <img src="./Image/ProjectWorkshop.png" width = "800" height = "500"/>
 + In the *Create a new Representation* section, choose *Domain* representation to visualise the Custom Domain.
 <img src="./Image/NewDomain.png" width = "800" height = "500"/>
@@ -64,11 +62,11 @@ To generate a model based on the existing domain:
   + Create new *Object* under the *Other* model
   + Choose existing *Domain* template
   + Choose root *Object* type
-<img src="./Image/creaeteRootOb.png" width = "800" height = "500"/>
+  <img src="./Image/creaeteRootOb.png" width = "800" height = "500"/>
 + Create new child *Object*
   + Create a new *Object* under *root Object*
   + Choose Object type
-<img src="./Image/createOb.png" width = "800" height = "500"/>
+  <img src="./Image/createOb.png" width = "800" height = "500"/>
 + Edit *Object* details
 <img src="./Image/editOb.png" width = "800" height = "500"/>
 ## 5. Generate View
