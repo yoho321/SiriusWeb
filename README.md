@@ -43,7 +43,7 @@ To create a new domain:
 
 ## Add New Elements
 Inside a domain you can create *Entities* which represent the concepts in your domain. 
-An *Entity* has a name, and zero of more super types. Besides, an *Entity* can be abstract, meaning no concrete instances can be created from it.
+An *Entity* has a name, and zero or more super types. Besides, *Entity* can be abstract, meaning no concrete instances can be created from it.
 To create a new *Entity*:
 
 + Hang your mouse over the panel to activate the tool bar, in which you can add a new *Entity*.
@@ -108,15 +108,15 @@ Open the DSML desctiption project
 Create new view
 + Underneath *Create a new Model*, click on the *View*
 + You can see a new *View* in the left content box
-Create new diagram description
+<img src="./Image/NewView.png" width = "800" height = "500"/>
 
-Add node objects
+Customize View
 
-Add edge objects
 
-Go to model project
 
-Create new representation
+Apply Custom View
++ Go to model description project
++ Create new representation
 
 ## Personalisation
 Personalise visual notations
