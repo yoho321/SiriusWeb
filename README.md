@@ -86,8 +86,6 @@ Generate a new model based on the previously defined DSML:
   + Create new *Object* under *New*
   + Choose existing DSML
   + Choose root *Object* type
-  
-
 <img src="./Image/creaeteRootOb.png" width = "800" height = "500"/>
 
 + Create new child *Objects*
@@ -101,22 +99,27 @@ Generate a new model based on the previously defined DSML:
 <img src="./Image/editOb.png" width = "800" height = "500"/>
 
 ## Generate View for DSML
-Go to the [Home page](https://demo.obeostudio.com/projects)
-
-Open the DSML desctiption project
-
-Create new view
-+ Underneath *Create a new Model*, click on the *View*
-+ You can see a new *View* in the left content box
++ Go to the [Home page](https://demo.obeostudio.com/projects)
++ Open the DSML desctiption project
++ Create new view
+  + Underneath *Create a new Model*, click on the *View*
+  + You can see a new *View* in the left content box
 <img src="./Image/NewView.png" width = "800" height = "500"/>
 
-Customize View
++ Customize View
+  + Rename the View. 
+  + Add Domain type. Domain type should follow Acceleo Query Language (AQL) rules, for more details: [Acceleo Documentation](https://www.eclipse.org/acceleo/documentation/aql.html).
+  + Add child Objects. SiriusWeb currently only supports Node and Edge notation
+  + Add Domain Type of child Object. 
+  + Edit Semantic Candidates Expression to map the notation with target Entity.
+  + Add Label Expression.
+<img src="./Image/ObjectDetail.png" width = "800" height = "500"/>
 
-
-
-Apply Custom View
-+ Go to model description project
-+ Create new representation
++ Apply Custom View
+  + Go to model description project
+  + Add new representation for root Object
+**View Sample**
+<img src="./Image/SampleView.png" width = "800" height = "500"/>
 
 ## Personalisation
 Personalise visual notations
