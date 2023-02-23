@@ -14,7 +14,7 @@ Before generating your own modelling project, you are required to ask for an Obe
 ## Log in
 Head to the [Login page](https://demo.obeostudio.com/login) and log in with your Username and Password.
 ## Create New Definition Project
-To start your project, you should first create a new studio definition project.
+To start your project, you should first create a new desctiption project.
 + Naviagate to the [Home page](https://demo.obeostudio.com/projects).
 + Click on the *'+ Blank project'*.
 
@@ -29,7 +29,8 @@ To start your project, you should first create a new studio definition project.
 Then you will be redirected to the newly created project. It will be initially empty; see following sections to learn how to use the project editor view to create your own models and representations.
 ## Create New Domain 
 To create a new domain:
-+ Open your studio definition project.
++ Head to the [Home page](https://demo.obeostudio.com/projects) 
++ Open the newly built desctiption project.
 + Underneath *Create a new Model* , choose *Domain* to create a new one.
 
 <img src="./Image/ProjectWorkshop.png" width = "800" height = "500"/>
@@ -73,8 +74,9 @@ To create a new *Attribute/Relation*:
 
 ## Apply Custom DSML
 Generate a new model based on the previously defined DSML:
-+ Create a new definition project
-  + On the [Home page](https://demo.obeostudio.com/projects), create a blank project
++ Create a new desctiption project
+  + Go to the [Home page](https://demo.obeostudio.com/projects) 
+  + Create a blank project
   + Name the project
   + Choose visualbility
 + Create a new Model
@@ -99,12 +101,22 @@ Generate a new model based on the previously defined DSML:
 <img src="./Image/editOb.png" width = "800" height = "500"/>
 
 ## Generate View for DSML
-5.1. Go to previsouly-built custom desctiption project
-5.2. Create new view
-5.3. Create new diagram description
-5.4. Add node objects
-5.5. Add edge objects
-5.6. Go to model project
-5.7. Create new representation
+Go to the [Home page](https://demo.obeostudio.com/projects)
+
+Open the DSML desctiption project
+
+Create new view
++ Underneath *Create a new Model*, click on the *View*
++ You can see a new *View* in the left content box
+Create new diagram description
+
+Add node objects
+
+Add edge objects
+
+Go to model project
+
+Create new representation
+
 ## Personalisation
 Personalise visual notations
