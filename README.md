@@ -122,9 +122,12 @@ Generate a new model based on the previously defined DSML:
 <img src="./Image/SampleView.png" width = "800" height = "500"/>
 
 # Personalisation
-SiriusWeb allows users to simply customise node description by images.
+[SiriusWeb](https://www.eclipse.org/sirius/sirius-web.html) allows users to simply customise visual notations by images.
 ## Upload Images
 Head to the DSML description project, find the project settings in the top of the panel. Click on the settings and find *Images*, in which users can upload images into this project as they wish.
+
+<img src="./Image/Settings.png" width = "800" height = "450"/>
+
 ## Apply Images
 Go back to the DSML description project, find node description created before. Delete its child file starting with '#', and create a new child object named *Style Image* for this node. 
 
@@ -134,5 +137,5 @@ After then, if you go back to the model description project, and opne the repres
 
 <img src="./Image/Customise.png" width = "800" height = "450"/>
 
-# End
-Thanks to Eclipse Foundation. If you need more details about SiriusWeb, please check out [Sirius|Home](https://www.eclipse.org/sirius/).
+# Tools we use
+Thanks to [Eclipse Foundation](https://www.eclipse.org/). If you need more details about Sirius, please check out [Sirius|Home](https://www.eclipse.org/sirius/).
