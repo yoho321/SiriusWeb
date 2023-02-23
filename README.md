@@ -9,7 +9,7 @@ This document is made for supporting people who are new to SiriusWeb and DSML. M
 # MacOS Ventura 13.2.1
 # Safari 16.3
 ```
-## 1. Sign up
+## Sign up
 Before generating your own modelling project, you are required to ask for an Obeo account, which is avaliable for every one. To ask for an Obeo account, you should go to the [Signup page](https://demo.obeostudio.com/signup) and fill the form to provide required personal information (e.g, Username, Password...).
 ## Log in
 Head to the [Login page](https://demo.obeostudio.com/login) and log in with your Username and Password.
@@ -121,5 +121,18 @@ Generate a new model based on the previously defined DSML:
 **View Sample**
 <img src="./Image/SampleView.png" width = "800" height = "500"/>
 
-## Personalisation
-Personalise visual notations
+# Personalisation
+SiriusWeb allows users to simply customise node description by images.
+## Upload Images
+Head to the DSML description project, find the project settings in the top of the panel. Click on the settings and find *Images*, in which users can upload images into this project as they wish.
+## Apply Images
+Go back to the DSML description project, find node description created before. Delete its child file starting with '#', and create a new child object named *Style Image* for this node. 
+
+Now, you can find newly added images in *Shape* of the new child object and assign one of them to this node. 
+
+After then, if you go back to the model description project, and opne the representation, you can see square node has been replaced by image.
+
+<img src="./Image/Customise.png" width = "800" height = "450"/>
+
+# End
+Thanks to Eclipse Foundation. If you need more details about SiriusWeb, please check out [Sirius|Home](https://www.eclipse.org/sirius/).
