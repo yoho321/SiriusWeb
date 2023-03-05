@@ -6,8 +6,8 @@ This document is made for supporting people who are new to SiriusWeb and DSML. M
 [SiriusWeb](https://www.eclipse.org/sirius/sirius-web.html) is a open-source low-code platform to define custom web applications supporting your DMSLs.
 ## Environment
 ```Bash
-# MacOS Ventura 13.2.1 / Windows 10
-# Safari 16.3
+# MacOS Ventura 13.2.1 / Windows 11 22H2
+# Safari 16.3 / Microsoft Edge 110.0
 ```
 ## Sign up
 Before generating your own modelling project, you are required to ask for an Obeo account, which is avaliable for every one. To ask for an Obeo account, you should go to the [Signup page](https://demo.obeostudio.com/signup) and fill the form to provide required personal information (e.g, Username, Password...).
