@@ -6,7 +6,7 @@ This document is made for supporting people who are new to SiriusWeb and DSML. M
 [SiriusWeb](https://www.eclipse.org/sirius/sirius-web.html) is a open-source low-code platform to define custom web applications supporting your DMSLs.
 ## Environment
 ```Bash
-# MacOS Ventura 13.2.1
+# MacOS Ventura 13.2.1 / Windows 10
 # Safari 16.3
 ```
 ## Sign up
