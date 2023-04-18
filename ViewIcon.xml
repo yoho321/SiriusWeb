@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view:View xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:view="http://www.eclipse.org/sirius-web/view">
+  <descriptions xmi:type="view:DiagramDescription" name="EHSML Diagram Icon" domainType="eHealth::Application" titleExpression="aql:'eHealthIconDiagram'">
+    <nodeDescriptions xmi:type="view:NodeDescription" name="AppNode" domainType="eHealth::Application" semanticCandidatesExpression="aql:self">
+      <deleteTool xmi:type="view:DeleteTool" name="Delete">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultDelete()"/>
+      </deleteTool>
+      <labelEditTool xmi:type="view:LabelEditTool" name="Edit Label">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultEditLabel(newLabel)"/>
+      </labelEditTool>
+      <style xmi:type="view:ImageNodeStyleDescription" borderColor="" shape="4fc107b5-d4e5-4818-9971-0043d82b79b1"/>
+      <nodeTools xmi:type="view:NodeTool" name="Create Node">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultCreateNode(nodeDescription)"/>
+      </nodeTools>
+      <childrenLayoutStrategy xmi:type="view:FreeFormLayoutStrategyDescription"/>
+    </nodeDescriptions>
+    <nodeDescriptions xmi:type="view:NodeDescription" name="UINode" domainType="eHealth::UI" semanticCandidatesExpression="aql:self.uIs" labelExpression="aql:'UIStyle: '+self.iconStyle">
+      <deleteTool xmi:type="view:DeleteTool" name="Delete">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultDelete()"/>
+      </deleteTool>
+      <labelEditTool xmi:type="view:LabelEditTool" name="Edit Label">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultEditLabel(newLabel)"/>
+      </labelEditTool>
+      <style xmi:type="view:ImageNodeStyleDescription" borderColor="" shape="b0922590-59a5-4485-9bda-faa968f274d9"/>
+      <nodeTools xmi:type="view:NodeTool" name="Create Node">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultCreateNode(nodeDescription)"/>
+      </nodeTools>
+      <childrenLayoutStrategy xmi:type="view:FreeFormLayoutStrategyDescription"/>
+    </nodeDescriptions>
+    <nodeDescriptions xmi:type="view:NodeDescription" name="ModNode" domainType="eHealth::Module" semanticCandidatesExpression="aql:self.modules">
+      <deleteTool xmi:type="view:DeleteTool" name="Delete">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultDelete()"/>
+      </deleteTool>
+      <labelEditTool xmi:type="view:LabelEditTool" name="Edit Label">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultEditLabel(newLabel)"/>
+      </labelEditTool>
+      <style xmi:type="view:ImageNodeStyleDescription" borderColor="" shape="7258ef67-a38a-4e1b-9093-8a5961029b7d"/>
+      <nodeTools xmi:type="view:NodeTool" name="Create Node">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultCreateNode(nodeDescription)"/>
+      </nodeTools>
+      <childrenLayoutStrategy xmi:type="view:FreeFormLayoutStrategyDescription"/>
+    </nodeDescriptions>
+    <nodeDescriptions xmi:type="view:NodeDescription" name="RecordNode" domainType="eHealth::HealthRecord" semanticCandidatesExpression="aql:self.healthRecords" labelExpression="aql:'record:  '+self.recordType">
+      <deleteTool xmi:type="view:DeleteTool" name="Delete">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultDelete()"/>
+      </deleteTool>
+      <labelEditTool xmi:type="view:LabelEditTool" name="Edit Label">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultEditLabel(newLabel)"/>
+      </labelEditTool>
+      <style xmi:type="view:ImageNodeStyleDescription" borderColor="" shape="5cda84e1-395b-4f12-9d75-8c67fd8dff08"/>
+      <nodeTools xmi:type="view:NodeTool" name="Create Node">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultCreateNode(nodeDescription)"/>
+      </nodeTools>
+      <childrenLayoutStrategy xmi:type="view:FreeFormLayoutStrategyDescription"/>
+    </nodeDescriptions>
+    <nodeDescriptions xmi:type="view:NodeDescription" name="UserNode" domainType="eHealth::User" semanticCandidatesExpression="aql:self.users" labelExpression="aql:self.role">
+      <deleteTool xmi:type="view:DeleteTool" name="Delete">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultDelete()"/>
+      </deleteTool>
+      <labelEditTool xmi:type="view:LabelEditTool" name="Edit Label">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultEditLabel(newLabel)"/>
+      </labelEditTool>
+      <style xmi:type="view:ImageNodeStyleDescription" borderColor="" shape="e3db60bd-f60c-472e-abc8-e58869a0f8e0"/>
+      <nodeTools xmi:type="view:NodeTool" name="Create Node">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultCreateNode(nodeDescription)"/>
+      </nodeTools>
+      <childrenLayoutStrategy xmi:type="view:FreeFormLayoutStrategyDescription"/>
+    </nodeDescriptions>
+    <nodeDescriptions xmi:type="view:NodeDescription" name="FuncNode" domainType="eHealth::Function" semanticCandidatesExpression="aql:self.modules.functions">
+      <deleteTool xmi:type="view:DeleteTool" name="Delete">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultDelete()"/>
+      </deleteTool>
+      <labelEditTool xmi:type="view:LabelEditTool" name="Edit Label">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultEditLabel(newLabel)"/>
+      </labelEditTool>
+      <style xmi:type="view:ImageNodeStyleDescription" borderColor="" shape="95dababa-fd02-4682-b195-4ffd4cec068d"/>
+      <nodeTools xmi:type="view:NodeTool" name="Create Node">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultCreateNode(nodeDescription)"/>
+      </nodeTools>
+      <childrenLayoutStrategy xmi:type="view:FreeFormLayoutStrategyDescription"/>
+    </nodeDescriptions>
+    <edgeDescriptions xmi:type="view:EdgeDescription" name="AppModEdge" domainType="eHealth::Application" semanticCandidatesExpression="aql:self" labelExpression="" sourceNodeDescriptions="//@descriptions.0/@nodeDescriptions.0" targetNodeDescriptions="//@descriptions.0/@nodeDescriptions.2" targetNodesExpression="aql:self.modules">
+      <deleteTool xmi:type="view:DeleteTool" name="Delete">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultDelete()"/>
+      </deleteTool>
+      <labelEditTool xmi:type="view:LabelEditTool" name="Edit Label">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultEditLabel(newLabel)"/>
+      </labelEditTool>
+      <style xmi:type="view:EdgeStyle" color="#002639" targetArrowStyle="None"/>
+      <edgeTools xmi:type="view:EdgeTool" name="Create Edge">
+        <body xmi:type="view:ChangeContext" expression="aql:semanticEdgeSource.defaultCreateEdge(edgeDescription, semanticEdgeTarget)"/>
+      </edgeTools>
+    </edgeDescriptions>
+    <edgeDescriptions xmi:type="view:EdgeDescription" name="AppUiEdge" domainType="eHealth::Application" semanticCandidatesExpression="aql:self" labelExpression="" sourceNodeDescriptions="//@descriptions.0/@nodeDescriptions.0" targetNodeDescriptions="//@descriptions.0/@nodeDescriptions.1" targetNodesExpression="aql:self.uIs" preconditionExpression="">
+      <deleteTool xmi:type="view:DeleteTool" name="Delete">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultDelete()"/>
+      </deleteTool>
+      <labelEditTool xmi:type="view:LabelEditTool" name="Edit Label">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultEditLabel(newLabel)"/>
+      </labelEditTool>
+      <style xmi:type="view:EdgeStyle" color="#002639" targetArrowStyle="None"/>
+      <edgeTools xmi:type="view:EdgeTool" name="Create Edge">
+        <body xmi:type="view:ChangeContext" expression="aql:semanticEdgeSource.defaultCreateEdge(edgeDescription, semanticEdgeTarget)"/>
+      </edgeTools>
+    </edgeDescriptions>
+    <edgeDescriptions xmi:type="view:EdgeDescription" name="AppRecordEdge" domainType="eHealth::Application" semanticCandidatesExpression="aql:self" labelExpression="" sourceNodeDescriptions="//@descriptions.0/@nodeDescriptions.0" targetNodeDescriptions="//@descriptions.0/@nodeDescriptions.3" targetNodesExpression="aql:self.healthRecords" preconditionExpression="">
+      <deleteTool xmi:type="view:DeleteTool" name="Delete">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultDelete()"/>
+      </deleteTool>
+      <labelEditTool xmi:type="view:LabelEditTool" name="Edit Label">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultEditLabel(newLabel)"/>
+      </labelEditTool>
+      <style xmi:type="view:EdgeStyle" color="#002639" targetArrowStyle="None"/>
+      <edgeTools xmi:type="view:EdgeTool" name="Create Edge">
+        <body xmi:type="view:ChangeContext" expression="aql:semanticEdgeSource.defaultCreateEdge(edgeDescription, semanticEdgeTarget)"/>
+      </edgeTools>
+    </edgeDescriptions>
+    <edgeDescriptions xmi:type="view:EdgeDescription" name="ModFuncEdge" domainType="eHealth::Module" semanticCandidatesExpression="aql:self.modules" labelExpression="" sourceNodeDescriptions="//@descriptions.0/@nodeDescriptions.2" targetNodeDescriptions="//@descriptions.0/@nodeDescriptions.5" targetNodesExpression="aql:self.functions">
+      <deleteTool xmi:type="view:DeleteTool" name="Delete">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultDelete()"/>
+      </deleteTool>
+      <labelEditTool xmi:type="view:LabelEditTool" name="Edit Label">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultEditLabel(newLabel)"/>
+      </labelEditTool>
+      <style xmi:type="view:EdgeStyle" color="#002639" targetArrowStyle="None"/>
+      <edgeTools xmi:type="view:EdgeTool" name="Create Edge">
+        <body xmi:type="view:ChangeContext" expression="aql:semanticEdgeSource.defaultCreateEdge(edgeDescription, semanticEdgeTarget)"/>
+      </edgeTools>
+    </edgeDescriptions>
+    <edgeDescriptions xmi:type="view:EdgeDescription" name="AppUserEdge" domainType="eHealth::Application" semanticCandidatesExpression="aql:self" labelExpression="" sourceNodeDescriptions="//@descriptions.0/@nodeDescriptions.0" targetNodeDescriptions="//@descriptions.0/@nodeDescriptions.4" targetNodesExpression="aql:self.users">
+      <deleteTool xmi:type="view:DeleteTool" name="Delete">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultDelete()"/>
+      </deleteTool>
+      <labelEditTool xmi:type="view:LabelEditTool" name="Edit Label">
+        <body xmi:type="view:ChangeContext" expression="aql:self.defaultEditLabel(newLabel)"/>
+      </labelEditTool>
+      <style xmi:type="view:EdgeStyle" color="#002639" targetArrowStyle="None"/>
+      <edgeTools xmi:type="view:EdgeTool" name="Create Edge">
+        <body xmi:type="view:ChangeContext" expression="aql:semanticEdgeSource.defaultCreateEdge(edgeDescription, semanticEdgeTarget)"/>
+      </edgeTools>
+    </edgeDescriptions>
+  </descriptions>
+</view:View>

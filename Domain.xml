@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<domain:Domain xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:domain="http://www.eclipse.org/sirius-web/domain" name="eHealth">
+  <types xmi:type="domain:Entity" name="Application">
+    <attributes xmi:type="domain:Attribute" name="name"/>
+    <relations xmi:type="domain:Relation" name="uIs" many="true" containment="true" targetType="//@types.4"/>
+    <relations xmi:type="domain:Relation" name="healthRecords" many="true" containment="true" targetType="//@types.3"/>
+    <relations xmi:type="domain:Relation" name="modules" many="true" containment="true" targetType="//@types.1"/>
+    <relations xmi:type="domain:Relation" name="users" many="true" containment="true" targetType="//@types.5"/>
+  </types>
+  <types xmi:type="domain:Entity" name="Module">
+    <attributes xmi:type="domain:Attribute" name="name"/>
+    <relations xmi:type="domain:Relation" name="functions" many="true" containment="true" targetType="//@types.2"/>
+  </types>
+  <types xmi:type="domain:Entity" name="Function">
+    <attributes xmi:type="domain:Attribute" name="name"/>
+  </types>
+  <types xmi:type="domain:Entity" name="HealthRecord">
+    <attributes xmi:type="domain:Attribute" name="recordType"/>
+  </types>
+  <types xmi:type="domain:Entity" name="UI">
+    <attributes xmi:type="domain:Attribute" name="iconStyle"/>
+    <attributes xmi:type="domain:Attribute" name="themeColour"/>
+    <attributes xmi:type="domain:Attribute" name="textSize" type="NUMBER"/>
+  </types>
+  <types xmi:type="domain:Entity" name="User">
+    <attributes xmi:type="domain:Attribute" name="role"/>
+  </types>
+</domain:Domain>
